@@ -36,18 +36,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="#">Project name</a>
+			  <a class="navbar-brand" href="#">jsSnake</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
-			  <form class="navbar-form navbar-right" role="form">
-				<div class="form-group">
-				  <input type="text" placeholder="Email" class="form-control">
-				</div>
-				<div class="form-group">
-				  <input type="password" placeholder="Password" class="form-control">
-				</div>
-				<button type="submit" class="btn btn-success">Sign in</button>
-			  </form>
+
 			</div><!--/.navbar-collapse -->
 		  </div>
 		</nav>
@@ -56,8 +48,23 @@
 		  <!-- Example row of columns -->
 		  <div class="row">
 			<div class="col-md-12">
-			  <h2>Heading</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			  <h2>Welcome</h2>
+			  <p>
+				  A basic implementation of the classic snake game written completely in client side JS. Feel free to give it a try.<br />
+				  <select id="gameSize">
+					  <option name="small" value="10">Small</option>
+					  <option name="med" value="20" selected>Medium</option>
+					  <option name="large" value="30">Large</option>
+				  </select>
+				  <select id="gameSkill">
+					  <option name="small" value="500">Easy</option>
+					  <option name="med" value="300" selected>Medium</option>
+					  <option name="large" value="200">Hard</option>
+					  <option name="large" value="100">Very Hard</option>
+					  <option name="large" value="50">Insane</option>
+				  </select>
+				  <button id="gameStart">Start Game</button>
+			  </p>
 			  <div id="gameboard">
 			  
 			  </div>

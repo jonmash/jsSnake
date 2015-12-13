@@ -2,7 +2,8 @@ define(['jquery'], function ($) {
     function gameBoard(width, height, container) {
         this.width = width;
 		this.height = height;
-		this.container = $(container);
+		this.container = container;
+		this.container.html(" ");
 		this.build();
     }
 
